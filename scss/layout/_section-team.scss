@@ -1,0 +1,100 @@
+.section-container {
+  position: absolute;
+  width: 805px;
+  height: 930px;
+  left: 317px;
+  top: 851px;
+}
+.section-title {
+  position: absolute;
+  width: 551px;
+  left: 210px;
+  font-size: 33px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+
+  color: $primary-text-color;
+
+  &.section-title__position {
+    width: 654px;
+    top: 492px;
+    left: 130px;
+  }
+}
+
+.section-team__box {
+  position: absolute;
+  width: 249px;
+  height: 293px;
+  top: 100px;
+  background: $primary-white-color;
+  border-radius: 22px;
+
+  &.box-two {
+    left: 280px;
+  }
+
+  &.box-three {
+    left: 555px;
+  }
+}
+
+.section-team__photo {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 76px;
+  position: absolute;
+  top: 26px;
+  left: 87px;
+  &.nia {
+    background-image: url(../images/team/nia.png);
+  }
+
+  &.albigale {
+    background-image: url(../images/team/abigale.png);
+  }
+
+  &.fedya {
+    background-image: url(../images/team/fedya.png);
+  }
+}
+
+.section-team__name {
+  position: absolute;
+  top: 114px;
+  left: 110px;
+  font-size: 18px;
+  color: $actent-color;
+
+  &.name-abigale {
+    left: 90px;
+  }
+
+  &.name-fedya {
+    left: 96px;
+  }
+}
+.section-team__slogo {
+  position: absolute;
+  width: 200px;
+  height: 79px;
+  left: 26px;
+  top: 166px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+
+  color: $actent-color;
+
+  &.slogo-abigale {
+    width: 172px;
+    left: 39px;
+  }
+
+  &.slogo-fedya {
+    top: 180px;
+    font-size: 22px;
+  }
+}

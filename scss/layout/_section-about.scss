@@ -1,0 +1,195 @@
+.section-about__title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1;
+  width: 638px;
+  height: 84px;
+  left: 698px;
+  top: 262px;
+  margin-bottom: 19px;
+  color: rgba(33, 35, 83, 1);
+}
+
+.container-blue {
+  position: absolute;
+  width: 682px;
+  height: 372px;
+  left: 666px;
+  top: 366px;
+  background: $bg-container;
+  box-shadow: 0px 4px 28.49px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.container-blue_title {
+  position: absolute;
+  width: 292px;
+  left: 59px;
+  top: 60px;
+  font-size: 34px;
+  line-height: 1;
+  color: $blue-title-color;
+}
+
+// Container-White
+
+.container-white {
+  position: absolute;
+  width: 251px;
+  height: 129px;
+  right: 11%;
+  top: 25%;
+  background: $primary-white-color;
+  border-radius: 20px;
+}
+
+.container-white_title {
+  position: absolute;
+
+  right: 50%;
+  top: 10%;
+  font-weight: 600;
+  font-size: 13px;
+
+  color: $box-title-color;
+}
+
+.container-white_price {
+  position: absolute;
+  right: 60%;
+  top: 35%;
+  font-weight: 600;
+  font-size: 23px;
+
+  color: $box-title-color;
+}
+
+.container-white_procent {
+  position: absolute;
+  left: 45%;
+  top: 42%;
+  font-weight: 600;
+  font-size: 13px;
+
+  color: $first-procent;
+}
+
+.container-white_flesh {
+  position: absolute;
+  left: 62%;
+  top: 45%;
+  fill: $first-procent;
+}
+
+.container-white_paragaf {
+  position: absolute;
+  left: 8%;
+  top: 65%;
+  font-size: 12px;
+
+  color: $color-paragaf;
+}
+
+// Container-White-Secondary
+
+.container-white-secondary {
+  position: absolute;
+  width: 251px;
+  height: 120px;
+  left: 9%;
+  top: 45%;
+
+  background: $primary-white-color;
+  border-radius: 20px;
+}
+.container-white__secondary--title {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-weight: 600;
+  font-size: 13px;
+
+  color: $box-title-color;
+}
+.container-white__secondary--price {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  font-size: 23px;
+  color: $box-title-color;
+}
+.container-white__secondary--procent {
+  position: absolute;
+  left: 48%;
+  top: 42%;
+  font-size: 13px;
+  color: $secondary-procent;
+}
+.container-white__secondary--flesh {
+  position: absolute;
+  left: 65%;
+  top: 45%;
+  fill: $secondary-procent;
+  transform: rotate(-180deg);
+}
+.container-white__secondary--paragaf {
+  position: absolute;
+  right: 8%;
+  top: 70%;
+  font-size: 12px;
+  color: $color-paragaf;
+}
+
+// Principaly-White-Container
+
+.container-white__principaly {
+  position: absolute;
+  width: 486px;
+  height: 265px;
+  left: 117px;
+  top: 473px;
+
+  background: $primary-white-color;
+  box-shadow: 0px 3px 28px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+}
+.container-white__principaly--name {
+  position: absolute;
+  left: 180px;
+  top: 57px;
+  font-size: 20px;
+  color: $primary-text-color;
+}
+.container-white__principaly-photo {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  left: 37px;
+  top: 30px;
+  background-image: url(../images/andy.jpg);
+}
+.container-white__principaly--paragaf {
+  position: absolute;
+  width: 310px;
+  height: 79px;
+  left: 130px;
+  top: 146px;
+
+  font-style: italic;
+  font-weight: 300;
+  font-size: 19px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: $primary-text-color;
+}

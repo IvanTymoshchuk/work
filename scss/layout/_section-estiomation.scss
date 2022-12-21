@@ -1,0 +1,84 @@
+.section-estimation__box {
+  position: absolute;
+  width: 660px;
+  height: 80px;
+  left: 100px;
+  bottom: 250px;
+  border-radius: 75px;
+  background: $bg-container;
+
+  &.box-position {
+    bottom: 150px;
+  }
+}
+
+.section-container__foto,
+.section-container__foto--secondary {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 15px;
+  left: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/estimation/john.png);
+}
+.section-container__foto--secondary {
+  background-image: url(../images/estimation/vasiliy.png);
+}
+
+.section-estimation__impression {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+
+  color: $primary-white-color;
+}
+
+.section-estimation__name {
+  position: absolute;
+  left: 80px;
+  top: 45px;
+  font-size: 12px;
+  letter-spacing: 0.25px;
+  color: $primary-white-color;
+  opacity: 0.5;
+}
+
+.section-estimation__time {
+  position: absolute;
+  top: 16px;
+  right: 36px;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  color: $primary-white-color;
+  opacity: 0.5;
+}
+
+.section-estimation__star {
+  position: absolute;
+  right: 36px;
+  top: 48px;
+  fill: rgba(255, 212, 80, 1);
+
+  .last-star {
+    opacity: 0.5;
+    fill: rgba(255, 255, 255, 1);
+  }
+}
+
+.section-last__title {
+  position: absolute;
+  width: 635px;
+  height: 65px;
+  left: 115px;
+  top: 850px;
+  font-weight: 200;
+  font-size: 26px;
+  color: $primary-text-color;
+}

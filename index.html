@@ -1,25 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Task</title>
 
-     <!-- стилі -->
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style -->
 
     <link rel="stylesheet" href="./css/main.min.css" />
-</head>
-<body>
-    
-    <!-- Шапка -->
+  </head>
+  <body>
+    <!-- Header -->
 
     <header class="header">
-
+      <div class="container">
+        <h1 class="header-title">Test Task</h1>
+        <svg class="header-logo" width="29" height="21">
+          <use href="./images/sprite.svg#icon-Logo"></use>
+        </svg>
+      </div>
     </header>
 
+    <!-- Main -->
 
-</body>
+    <main>
+      <!-- Nayword -->
+      <section class="section-nayword">
+        <h2 class="section-nayword__title">Do The Task And Have Fun</h2>
+      </section>
+
+      <!-- About -->
+      <section class="section-about">
+        <h3 class="section-about__title">
+          Be Persistent & Attentive To Details
+        </h3>
+
+        <!-- Container-blue -->
+
+        <div class="container-blue">
+          <h4 class="container-blue_title">Fonts & Colors Matter</h4>
+          <div class="container-white">
+            <h4 class="container-white_title">Mobile Friendly</h4>
+            <h4 class="container-white_price">$12380</h4>
+            <span class="container-white_procent">-3.2%</span>
+            <svg class="container-white_flesh" width="10" height="9">
+              <use href="./images/sprite.svg#icon-Shape"></use>
+            </svg>
+            <p class="container-white_paragaf">
+              Don’t Forget About Small Devices
+            </p>
+          </div>
+          <!-- Container-White -->
+          <div class="container-white">
+            <h4 class="container-white_title">Mobile Friendly</h4>
+            <h4 class="container-white_price">$12380</h4>
+            <span class="container-white_procent">-3.2%</span>
+            <svg class="container-white_flesh" width="10" height="9">
+              <use href="./images/sprite.svg#icon-Shape"></use>
+            </svg>
+            <p class="container-white_paragaf">
+              Don’t Forget About Small Devices
+            </p>
+          </div>
+
+          <!--Container-White-Secondary -->
+
+          <div class="container-white-secondary">
+            <h4 class="container-white__secondary--title">Responsive Design</h4>
+            <h4 class="container-white__secondary--price">$19840</h4>
+            <span class="container-white__secondary--procent">+8.5%</span>
+            <svg
+              class="container-white__secondary--flesh"
+              width="10"
+              height="9"
+            >
+              <use href="./images/sprite.svg#icon-Shape"></use>
+            </svg>
+            <p class="container-white__secondary--paragaf">
+              You’ll Learn A Lot From This Task
+            </p>
+          </div>
+        </div>
+
+        <!-- Principaly-White-Container -->
+
+        <div class="container-white__principaly">
+          <ul>
+            <li class="container-white__principaly--name">
+              Andy <br />
+              Head Of UX Design
+            </li>
+            <li><span class="container-white__principaly-photo"></span></li>
+
+            <li class="container-white__principaly--paragaf">
+              “The Style Of This Test Task Matches The Style That You Will Be
+              Making Real Job In.”
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section-Team -->
+      <section class="section-team">
+        <div class="section-container">
+          <h2 class="section-title">What Pros Are Saying...</h2>
+
+          <div class="section-team__box">
+            <ul>
+              <li class="section-team__list">
+                <span class="section-team__photo nia"></span>
+                <h3 class="section-team__name">Nia</h3>
+                <p lang="en" class="section-team__slogo">
+                  “This task can be perfect for students from FIT”
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="section-team__box box-two">
+            <ul>
+              <li class="section-team__list">
+                <span class="section-team__photo albigale"></span>
+                <h3 class="section-team__name name-abigale">Abigale</h3>
+                <p lang="en" class="section-team__slogo slogo-abigale">
+                  “I am so sexy, that men are doing test tasks for me for free.”
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="section-team__box box-three">
+            <ul>
+              <li class="section-team__list">
+                <span class="section-team__photo fedya"></span>
+                <h3 class="section-team__name name-fedya">Fedya</h3>
+                <p lang="en" class="section-team__slogo slogo-fedya">
+                  “Kuku Epta. EZ Task.”
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section-Estimation -->
+
+      <section class="section-estimation">
+        <div class="section-container">
+          <h2 class="section-title section-title__position">
+            What Other Coders Are Saying...
+          </h2>
+          <div class="section-estimation__box">
+            <span class="section-container__foto"></span>
+            <h3 class="section-estimation__impression">
+              Wow, this test task is absolutely amazing! Loved it!
+            </h3>
+            <span class="section-estimation__time">05:20</span>
+            <p class="section-estimation__name">John Kennedy</p>
+            <div class="section-estimation__star">
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="section-estimation__box box-position">
+            <span class="section-container__foto--secondary"></span>
+            <h3 class="section-estimation__impression">
+              Holy cow, developers rock, but I missed the 5 stars button.
+            </h3>
+            <span class="section-estimation__time">14:30</span>
+            <p class="section-estimation__name">Vasiliy Igorsky</p>
+            <div class="section-estimation__star">
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+              <svg class="last-star" width="16" height="16">
+                <use href="./images/sprite.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </div>
+          <h4 class="section-last__title">
+            Don’t Forget To Deploy Project To GitHub Pages
+          </h4>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h2 class="footer-title">
+        © Test Task Limited™, 2020. All rights reserved.
+      </h2>
+      <p class="footer-text">Terms Of Service | Privacy Policy</p>
+    </footer>
+  </body>
 </html>

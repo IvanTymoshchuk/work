@@ -1,0 +1,13 @@
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color:$bg-color-body;
+  color: $primary-text-color;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 1.2;
+  margin: 0;
+}
